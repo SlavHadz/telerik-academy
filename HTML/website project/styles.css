@@ -14,6 +14,14 @@ body {
     overflow: hidden;
 }
 
+.dark {
+    padding: 15px;
+    background-color: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 header {
     background: #35424a;
     color: white;
@@ -125,6 +133,54 @@ header a:hover {
 #boxes .box img {
     width: 90px;
     height: 90px;
+}
+
+/*Sidebar*/
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*Main-col*/
+
+article#main-col {
+    float: left;
+    width: 65%;
+
+}
+
+/*Players*/
+
+div.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+div.players img {
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+}
+
+h2.position {
+    text-align: center;
+    background-color: #e8491d;
+}
+
+div.players img:hover {
+    box-shadow: 0px 0px 5px #e8491d;
+}
+
+h1.page-title2 {
+    text-align: center;
+    background-color: #35424a;
+    border-top: 2px solid #e8491d;
+    border-bottom: 2px solid #e8491d;
 }
 
 footer {
