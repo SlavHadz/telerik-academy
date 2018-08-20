@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <title>Pacman</title>
+</head>
+<body>
+    <h1>The Pacman Game</h1>
+    <div id="game-container">
+        <canvas id="game-canvas" class="pacman-canvas" ></canvas>
+        <canvas id="maze-canvas" class="pacman-canvas" ></canvas>
+    </div>
+    <img id="wall-image" src="./imgs/wall.jpg" alt="" style="display: none">
+    <script src="game.js"></script>
+    <script>
+        window.onload = function () {
+            var game = createGame('#game-canvas', '#maze-canvas');
+        game.start();
+        }  
+    </script>
+</body>
+</html>
