@@ -34,3 +34,7 @@ var data = {
         }
     ]
 };
+
+var teamInfo = `<p>The Bulgaria national football team (Bulgarian: Български национален отбор по футбол) is an association football team of Bulgaria. It is fielded by the Bulgarian Football Union, a member association of UEFA. The team's home stadium is the Vasil Levski National Stadium in Sofia and Petar Hubchev is the current national manager. Their best achievements are — one FIFA World Cup semi-final in 1994, one Summer Olympics final in 1968, fifth place at the UEFA Euro 1968, and three Balkan Cup titles. Although defeating strong top ranked teams in many international friendlies throughout the years, the team's strength has slowly fallen, failing to qualify for any major tournament since 2004.</p>`;
+
+export {data, teamInfo};
