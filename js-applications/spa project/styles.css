@@ -1,4 +1,67 @@
+/* header */
+
+header {
+    background-color: lightgreen;
+    color: red;
+    display: flex;
+    justify-content: center;
+ }
+
+/* navigation */
+
+nav {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+
+nav ul li:hover {
+    background-color: darkgreen;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+nav ul li a:hover{
+    color: darkred;
+}
+
+/* gallery */
+.gallery {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .gallery img {
     width: 200px;
     height: 200px;
+    border: 1px solid red;
+}
+
+div.player {
+    margin: 10px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Team info */
+
+p#team-info {
+    font-family: 'Indie Flower';
+    font-size: 24px;
+    background-color: lightgreen;
 }
