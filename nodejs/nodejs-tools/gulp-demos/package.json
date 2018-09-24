@@ -1,0 +1,20 @@
+{
+  "name": "gulp-demos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-typescript": "^5.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "babel-preset-es2017": "^6.24.1",
+    "chai": "^4.1.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-mocha": "^6.0.0",
+    "mocha": "^5.2.0"
+  }
+}
